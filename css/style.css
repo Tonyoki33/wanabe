@@ -1,0 +1,374 @@
+/* Background */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #297cc5; }
+
+body {
+  background-color: #297cc5; }
+
+header {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  background-color: #4486c2; }
+
+main {
+  padding-top: 100px;
+  width: 1050px; }
+
+.container-2 {
+  padding-top: 100px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto; }
+
+/* Tu comunidad nunca estuvo + P + IMG*/
+.container {
+  padding: 23px 5px;
+  margin: 1.2rem 3rem;
+  width: 100rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color: azure;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a; }
+  .container .container_box--color {
+    background-color: azure; }
+
+.container_box--nosotros {
+  padding: 23px 5px;
+  margin: 1.2rem 3rem;
+  width: 100rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color: lightblue;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a; }
+
+.container_box--carrousel {
+  margin: 1.2rem 3rem;
+  width: 100rem;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a; }
+
+.container_box--align {
+  margin: 1.2rem 3rem;
+  width: 100rem;
+  background-color: moccasin;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a;
+  justify-items: center;
+  align-items: flex-start; }
+  .container_box--align p.container-3 {
+    background-color: none; }
+
+/* Trabajo de P */
+.aside_p--size {
+  background-color: #043057;
+  margin: 0px;
+  padding: 35px; }
+
+p {
+  display: flex;
+  flex-flow: column;
+  padding: 11px 111px 12px 104px;
+  margin: 5px 40px 5px 5px;
+  font-size: 2rem; }
+
+.posicionImagen {
+  padding-left: 11rem;
+  width: 30rem;
+  background-color: transparent; }
+
+/* ANIMACIONES */
+div.imgAnim:hover {
+  transform: scale(1.1); }
+
+/* - - - - - - - - - - - - - - -  Tablas - - - - - - - - - - - - - - - - - - - -  */
+table {
+  padding: 1rem;
+  margin: 3rem 3rem 3rem 10rem;
+  width: 30rem;
+  height: 30rem;
+  font-size: 2rem;
+  background-color: azure;
+  border: solid 0.5rem #043057; }
+  table th {
+    padding: 5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #043057;
+    color: seashell;
+    border-bottom: 1rem solid #4486c2; }
+  table td {
+    padding: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: lightyellow; }
+  table .tabla {
+    background-color: azure; }
+
+/* - - - - - - - - - - - - - - - Formularios - - - - - - - - - - - - - - - - - - -  */
+.form-class {
+  margin: 1rem 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: lightblue;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a;
+  height: 55rem;
+  justify-content: center; }
+
+.mb-3 {
+  background-color: lightblue; }
+
+.form-label {
+  margin: 1rem 10rem;
+  width: 20rem;
+  padding: 0;
+  font-size: 1.5rem;
+  background-color: lightblue; }
+
+.form-control {
+  margin: 1rem 10rem;
+  width: 50rem;
+  padding: 2rem 1rem; }
+
+.form-check-label {
+  background-color: lightblue; }
+
+.form-check {
+  margin: 1rem 12rem;
+  width: 50rem;
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  background-color: lightblue; }
+
+.btn {
+  width: 10rem;
+  margin: 1rem 10rem;
+  font-size: 1.5rem; }
+
+form div.sendButton:hover {
+  padding: 0px 0px;
+  width: 120px;
+  height: 60px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #084d8a; }
+
+/* ------------------------------- Ul sec ------------------------------------ */
+.ul_servicios {
+  padding: 2rem 15rem;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  list-style-image: url(https://img.flaticon.com/icons/png/512/61/61222.png?size=20x20f&pad=10,10,10,10&ext=png&bg=); }
+
+/* Spinner */
+.container_box--spin {
+  padding: 23px 5px;
+  margin: 1.2rem 15rem;
+  width: 100rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  border: 0.5rem solid #084d8a;
+  border-top: 5rem solid #084d8a; }
+  .container_box--spin .spinner-border {
+    width: 50px;
+    height: 50px; }
+  .container_box--spin .spinner-border:hover {
+    width: 80px;
+    height: 80px;
+    background-color: green; }
+  .container_box--spin .container_box--spinbuttons {
+    display: flex;
+    flex-flow: row; }
+
+.pos-f-t {
+  background-color: #297cc5; }
+
+/* - - - - - - - - - - -  GRIDS - - - - - - - - - -  */
+#grid {
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main aside" "footer footer footer";
+  grid-column-gap: 1px;
+  grid-row-gap: 2px; }
+
+#grid_contact {
+  display: grid;
+  grid-template-areas: "nav nav nav" "main main aside" "footer footer footer";
+  grid-column-gap: 1px;
+  grid-row-gap: 2px; }
+
+.navbar {
+  padding: 0px 0px; }
+
+.container-fluid {
+  height: 7rem;
+  display: block;
+  border-bottom: solid #043057;
+  background-color: #297cc5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; }
+
+.nav-link {
+  margin-top: 0px;
+  padding: 0px 10px 0px 10px;
+  font-weight: 600;
+  display: flex;
+  list-style-type: none;
+  grid-area: nav; }
+
+.nav-link:hover {
+  background-color: lightskyblue;
+  display: flex;
+  color: #043057;
+  padding: 16px 13px;
+  width: 200px;
+  height: 70px;
+  align-items: center; }
+
+.nav_menu {
+  height: 7rem;
+  display: block;
+  border-bottom: solid #043057; }
+  .nav_menu .nav_ul {
+    margin-top: 0px;
+    padding: 0px 4px 0px 20px;
+    font-weight: 600;
+    display: flex;
+    list-style-type: none;
+    grid-area: nav; }
+    .nav_menu .nav_ul li {
+      padding: 0px 50px;
+      margin: 0; }
+    .nav_menu .nav_ul a {
+      font-size: 3rem;
+      padding: 18px 13px;
+      display: flex;
+      text-align: center;
+      text-decoration: none;
+      color: #043057; }
+    .nav_menu .nav_ul a:hover {
+      background-color: lightskyblue;
+      display: flex;
+      color: #043057;
+      padding: 16px 13px;
+      width: 200px;
+      height: 70px; }
+
+/*-------------- Aside --------------------------------*/
+aside {
+  grid-area: aside;
+  display: flex;
+  width: 290px;
+  height: 100%;
+  grid-row: 1/4;
+  padding: 80px 0px 0px 0px;
+  margin: 0px;
+  background-color: #043057;
+  color: lightyellow; }
+
+.aside_p {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  height: 12px;
+  align-content: left;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5rem;
+  background-color: #043057;
+  color: lightyellow; }
+
+/* - - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - - - -  */
+footer {
+  grid-area: footer;
+  margin: 0rem;
+  padding: 4rem 0rem 0rem 2rem;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  border-top: solid #043057;
+  background-color: transparent;
+  color: seashell;
+  z-index: 90; }
+  footer .footer_ul {
+    margin-right: 10px;
+    padding: 0px 4px 0px 20px;
+    font-weight: 600;
+    display: flex;
+    list-style-type: none;
+    grid-area: nav; }
+    footer .footer_ul .footer_li {
+      padding: 0px 4px 0px 30px; }
+
+.footer_box--gradient {
+  background-image: linear-gradient(#4486c2, #043057); }
+
+/*- - - - - - - - - - - - - - - T E X T O S - - - - - - - - - - - - - - - - - - - -  */
+/* Trabajo de Headers */
+h1 {
+  font-size: 8rem;
+  letter-spacing: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #043057;
+  text-align: center; }
+
+h2 {
+  font-size: 3.5rem;
+  padding: 11px 20px 12px 95px;
+  margin: 5px 4px; }
+
+h3 {
+  font-size: 3rem;
+  padding: 11px 20px 12px 90px;
+  margin: 5px 4px; }
+
+.container_p--bold {
+  font-weight: 600;
+  background-color: azure; }
+
+@media (max-width: 768px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+    grid-column-gap: 1px;
+    grid-row-gap: 2px; }
+  .aside {
+    display: none; }
+  .aside_p {
+    display: none; }
+  h1 {
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #043057;
+    padding-left: 2rem;
+    text-align: left; } }
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--continuar {
+  background-color: #55acee; }
+
+.btn--atras {
+  background-color: #3a5795; }
+
+.btn--send-mail {
+  background-color: #C25E30; }

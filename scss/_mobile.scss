@@ -1,0 +1,33 @@
+@import "variables"; 
+@media (max-width:768px) {
+    #grid {
+        display: grid;
+        grid-template-areas: 
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+        grid-column-gap: 1px ;
+        grid-row-gap: 2px;
+    }
+    
+    .aside {
+        display: none;   
+    }
+
+    .aside_p {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 5rem;
+        letter-spacing: 2rem;
+        font-weight: 200;
+        font-style: italic;
+        color: rgb(4, 48, 87);
+        padding-left: 2rem;
+        text-align: left;    
+    }
+
+}
+
+

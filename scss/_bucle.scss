@@ -1,0 +1,12 @@
+$funciones: ( 
+        continuar: #55acee,
+        atras:  #3a5795,
+        send-mail: #C25E30,
+);
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $funcion, $color in $funciones {
+   .btn--#{$funcion} {
+       background-color: $color;
+   }
+}
